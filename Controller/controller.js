@@ -23,7 +23,9 @@ export const sign = async (req, res) => {
         res.status(201).json({ success: true, message: "login successful" });
 
     } catch (e) {
-        console.log(e);
+        if (e.code === 11000) {
+            return res.status(404).json({ success: false, message: "incorrect password" });
+        }
         res.status(500).json({ error: "internal server error" });
     }
 }

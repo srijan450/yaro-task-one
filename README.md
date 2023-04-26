@@ -27,7 +27,7 @@ The API is made using Node.js, Express.js, Mongoose, MongoDb, Bcrypt.js, JsonWeb
     { "success": false, "message": "incorrect password" }
 ![incorrect password](https://raw.githubusercontent.com/srijan450/images/main/yaro-login-incorrect-password-taskOne.png)
 
-    > The method is POST and link to API is: https://yaro-task-one.herokuapp.com/sign
+    > The method is POST and link to API is: https://yaro-task.onrender.com/sign
 
  
 
@@ -38,7 +38,7 @@ The API is made using Node.js, Express.js, Mongoose, MongoDb, Bcrypt.js, JsonWeb
     > when user is not logged in then this api give { "message": "please sign in to access this page" } as response.
       ![](https://raw.githubusercontent.com/srijan450/images/main/test-page-unauthenticated-taskOne.png)
     
-    >The method is GET and link to API is: https://yaro-task-one.herokuapp.com/test-page
+    >The method is GET and link to API is: https://yaro-task.onrender.com/test-page
 
 3. Sign out: (sign-out)
     > This API is for sign-out purpose.
@@ -46,4 +46,4 @@ The API is made using Node.js, Express.js, Mongoose, MongoDb, Bcrypt.js, JsonWeb
        ![](https://raw.githubusercontent.com/srijan450/images/main/sign-out-authenticated-taskOne.png)
     > when user is not logged in then this api give { "message": "please sign in to access this page" } as response.
        ![](https://raw.githubusercontent.com/srijan450/images/main/sign-out-unauthenticated-taskOne.png)
-    > The method is POST and link to API is: https://yaro-task-one.herokuapp.com/sign-out
+    > The method is POST and link to API is: https://yaro-task.onrender.com/sign-out
